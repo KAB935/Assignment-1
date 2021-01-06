@@ -1,3 +1,15 @@
-h1{
-    color: aqua;
-}
+.header{
+    display: inline-block;
+ }
+ .header li{
+     display: inline-block;
+ }
+ .header li a{
+     color: black;
+     text-decoration: none;
+     padding: 34px 23px;
+     font-size: 26px;
+ }
+ RED ORANGE{
+     color:rgb(192, 52, 52)
+ }
