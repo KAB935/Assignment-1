@@ -1,4 +1,6 @@
- margin:valid
+ body{
+     margin-left: 0;
+ }
  .header{
     display: inline-block;
  }
@@ -34,7 +36,7 @@
     padding-left: 10%;
 }
 .seperate img{
-    width: 100%;
+    width: 120%;
 }
 .pink{
     color: rgb(3, 99, 78);
@@ -43,11 +45,26 @@
     color: rgb(14, 14, 233);
 }
 .BUTTON{
-    font-size: 25px;
+    text-decoration: none;
+    background-image: linear-gradient(yellow lightgreen green);    
+    font-size: 16px;
     cursor: pointer;
-    color: rgb(248, 12, 12);
+    border-radius: 8px;
+    color: rgb(3, 2, 2);
     border-color: black;
-    box-shadow: rgb(71, 18, 18);
-    padding: 38px 26px;
-    button-color:grey ;
+    font-weight: 750px;
+    background-color: rgb(35, 250, 196);  
+    padding: 23px 15px;
+      }
+.small{
+    width: 25%;
+    height: 27%;
+    margin-right:25px;
+    padding: 100px  65px;
+     float: left;
+    
+    }
+.small img{
+    width: 100%;
+    padding-right: 90%;
 }
