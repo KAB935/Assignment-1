@@ -1,14 +1,17 @@
  body{
      margin-left: 0;
+     
  }
  .header{
     display: inline-block;
  }
  .header li{
      display: inline-block;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
  }
  h1{
      font-size:50px;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
  }
  
  h4{
@@ -101,3 +104,18 @@ section{
     background-color: rgb(231, 116, 116);  
     padding: 23px 15px;
 }
+#centre{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 35px;
+    color: rgb(3, 3, 48);
+}
+.last-div
+     {
+    width: 5%;
+    margin:30%;
+    padding-top: 60px;
+    border-radius: 100%;
+    margin-top: 900px;
+    margin: 5%;
+    float: left;
+     }
