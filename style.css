@@ -105,17 +105,28 @@ section{
     padding: 23px 15px;
 }
 #centre{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif
+    text-align:centre;
+    font-size: 41px;
+    padding-top: 40px;
     color: rgb(3, 3, 48);
 }
 .last-div
      {
-    width: 5%;
-    margin:30%;
-    padding-top: 60px;
-    border-radius: 100%;
-    margin-top: 900px;
-    margin: 5%;
-    float: left;
-     }
+    width: 20%;
+    height: 380px;
+    margin-top:100px;
+    margin-left: 145px;
+    display: inline-block;
+    border-radius: 15%;
+    background-color: rgb(147, 183, 236);
+    box-sizing: border-box;
+    box-shadow: 10px 10px 40px gray;
+       }
+    .last-div img {
+        width: 100%;
+    }
+
+  .Eng-design{
+      background-color: rgb(203, 247, 138);
+  }
